@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "CSS Linter Test",
+      "setup": "npm install",
+      "run": "npx stylelint \"**/*.css\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
